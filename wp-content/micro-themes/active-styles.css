@@ -1,0 +1,59 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Menu principal ============ */
+
+/** Menu principal >> Menu Cardápio **/
+#menu-item-44 > .menu-link {
+	
+}
+
+
+/*= Conteúdo ================= */
+
+/** Conteúdo >> Titulo Cardápio Home **/
+.cardapiohome .uagb-rm__title-wrap {
+	width: 270px !important;
+}
+
+/** Conteúdo >> Preço Cardápio Home **/
+.cardapiohome .uagb-rm__price {
+	width: 80px !important;
+}
+
+
+/*= Rodapé =================== */
+
+/** Rodapé >> Barra do Rodapé **/
+#colophon .ast-footer-overlay {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+
+/*( Celular )*/
+@media (max-width: 480px) {
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Menu Cardápio **/
+	#menu-item-44 > .menu-link {
+	width: 60% !important;
+}
+
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> Titulo Cardápio Home **/
+	.cardapiohome .uagb-rm__title-wrap {
+	width: 220px !important;
+}
+
+	/** Conteúdo >> Preço Cardápio Home **/
+	.cardapiohome .uagb-rm__price {
+	width: 40px !important;
+}
+
+
+}
+
